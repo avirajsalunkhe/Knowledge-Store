@@ -1,0 +1,82 @@
+.header {
+    
+    text-align: center;
+    margin: 0;
+  }
+  .con1{
+    z-index: 1;
+    background-color: whitesmoke;
+    position: sticky;
+    position: -webkit-sticky;
+   top: 0;
+   border: 2px 2px solid black;
+   box-shadow: 2px 2px;
+  }
+  .logo {
+    position: absolute;
+    margin-top: 10px;
+    left: 150px;
+    right: 0;
+  }
+  
+  .sinfo {
+    font-family: 'Merriweather', serif;
+    position: relative;
+    font-weight: bold;
+    color: black;
+    width: 700px;
+    align-items: center;
+    left: 450px;
+    font-weight: 900;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.nav li{
+    list-style-type: none;
+}
+
+.nav a{
+    font-size:15px; 
+    text-decoration:none;
+    margin-right:40px;
+    color:#000000;
+    
+    /* font-family:Comic Sans MS; */
+    transition:0.3s;
+}
+.nav a:hover{
+  font-size: 20px;
+    border-bottom:2px solid rgb(255, 0, 0);
+    color:#ff0000;
+    
+}
+
+.mainimg{
+  width: 220vh;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+
+}
+marquee{
+  background-color: #ff0000;
+  color: aliceblue;
+  margin-top: 5px;
+  /* font-size: 20px; */
+  padding-top: 5px;
+}
+  
+  
