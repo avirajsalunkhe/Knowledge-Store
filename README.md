@@ -9,7 +9,6 @@
 
 [![Language](https://img.shields.io/badge/Language-PHP-blue)](https://www.php.net/)
 [![Database](https://img.shields.io/badge/Database-MySQL-orange)](https://www.mysql.com/)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 [![Status](https://img.shields.io/badge/Status-Active-success)](#)
 
 This project provides a **full-stack library management solution** where:
