@@ -125,7 +125,7 @@ If you find bugs or want to add features:
 
 ---
 
-## 📜 License
+## 📜 License:
 
 This project is licensed under the **MIT License** – you can freely use and modify it.
 
