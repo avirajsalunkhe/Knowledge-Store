@@ -19,9 +19,6 @@ $query = "SELECT * from student_data where eid = '$id'";
         
 
 ?>
-
-
-
 <html>
 <head>
 
@@ -497,4 +494,5 @@ if(!$b5==0)
     </center>
 </footer>
 </body>
+
 </html>
