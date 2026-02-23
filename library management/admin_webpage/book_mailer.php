@@ -20,7 +20,7 @@ while ($rows = mysqli_fetch_assoc($result)) {
     $mob[$ct]=$eid;
     $ct++;
 }
-try {
+try {    
     //Server settings
     $mail->isSMTP();                                            //Send using SMTP
     $mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
@@ -82,4 +82,5 @@ try {
 echo '<script type="text/javascript">';
 echo ' alert("Book Registered successfully....")';
 echo '</script>';
+
 ?>
