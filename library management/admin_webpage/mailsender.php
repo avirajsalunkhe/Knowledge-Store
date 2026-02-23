@@ -19,7 +19,7 @@ try {
     $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
     $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
     $mail->Username   = 'sveripolylibrary1074@gmail.com';       //SMTP username
-    $mail->Password   = 'syxcgmyukvgtttsx';                               //SMTP password
+    $mail->Password   = '';                               //SMTP password
     $mail->SMTPSecure = 'ssl';            //Enable implicit TLS encryption
     $mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
 
@@ -53,5 +53,6 @@ try {
                echo 'alert("Mail could not be sent. Mailer Error: {$mail->ErrorInfo}")';
                echo '</script>';
 }
+
 
 ?>
