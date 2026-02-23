@@ -20,12 +20,12 @@ $result7 = mysqli_query($conn,$query7);
 
 $row1 = mysqli_fetch_array($result1);
 $row2 = mysqli_fetch_array($result2);
-$row3 = mysqli_fetch_array($result3);
+$row3 = mysqli_fetch_array($result3); 
 $row4 = mysqli_fetch_array($result4);
-$row5 = mysqli_fetch_array($result5);
+$row5 = mysqli_fetch_array($result5); 
 $row6 = mysqli_fetch_array($result6);
-$row7 = mysqli_fetch_array($result7);
-
+$row7 = mysqli_fetch_array($result7); 
+ 
 
 $querysa1= "select COUNT(*) from book_data where (dep='Information Technology' AND sem='Semester 1');";
 $querysa2= "select COUNT(*) from book_data where (dep='Information Technology' AND sem='Semester 2');";
@@ -398,3 +398,4 @@ $result = mysqli_query($conn,$query);
 </footer>
 </body>
 </html>
+
