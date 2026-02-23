@@ -12,8 +12,3 @@ foreach($mob as $k)
 {
    echo $k."<br>";
 }
-
-
-
-
-
