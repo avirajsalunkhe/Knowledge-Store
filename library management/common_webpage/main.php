@@ -10,13 +10,13 @@
   <link href="../sveri.png" rel='icon'>
   <title>Library Management system</title>
   <style>
-    
+     
 
 .me{
   display:none;
   cursor: pointer;
 }
-
+ 
 .bar1, .bar2, .bar3 {
   width: 35px;
   height: 5px;
@@ -289,4 +289,5 @@ else{
         </div>
         </div>
         </body>
+
 </html>
