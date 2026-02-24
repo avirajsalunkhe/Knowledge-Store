@@ -29,7 +29,7 @@ This project provides a **full-stack library management solution** where:
 - **🗄️ Database Integration** – MySQL-based data storage.
 
 ---
-
+ 
 ## 🖥️ Tech Stack
 
 - **Frontend:** HTML, CSS
